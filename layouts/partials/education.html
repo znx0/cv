@@ -1,0 +1,22 @@
+<div class="cv-education">
+  <h2>
+    <i class="fa-solid fa-graduation-cap"></i>
+    {{ i18n "section-header.education" }}
+  </h2>
+  {{ range . }}
+    <div class="cv-education-item">
+      <div class="cv-education-item--info">
+        <div>
+          <i class="fa-solid fa-calendar-days"></i>
+          {{ .date | markdownify }}
+        </div>
+        <div>
+          <i class="fa-solid fa-location-dot"></i>
+          {{ .location | markdownify }}
+        </div>
+      </div>
+      <div class="cv-education-item--name">{{ .name | markdownify }}</div>
+      <div class="cv-education-item--description">{{ .description | markdownify }}</div>
+    </div>
+  {{ end }}
+</div>

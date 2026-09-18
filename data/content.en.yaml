@@ -1,0 +1,124 @@
+name: David Alexandre Cardoso Alves
+tagline: Cybersecurity & Electrical Engineering Student | Ethical Hacking Enthusiast | Federated Athlete.
+
+sidebar:
+  contact:
+    email: znx0@proton.me
+    # phone: "+351 912 345 678"
+    location: "Lisbon, Portugal"
+    website: znx0
+    github: znx0
+    linkedin: davidacalves
+    tryhackme: 0xznx
+  skills:
+    - title: Cybersecurity & Networks
+      entry:
+        - name: Network Protocols
+          rating: 5
+        - name: Cryptography
+          rating: 4
+        - name: Wireshark (Packet Analysis)
+          rating: 4
+        - name: Burp Suite
+          rating: 3
+    - title: Programming
+      entry:
+        - name: C
+          rating: 4
+        - name: Python
+          rating: 3
+        - name: HTML/CSS
+          rating: 2
+        - name: SQL
+          rating: 2
+        - name: MATLAB
+          rating: 2
+        - name: PHP
+          rating: 1
+    - title: Operating Systems
+      entry:
+        - name: Linux
+          rating: 5
+        - name: Windows
+          rating: 3
+        - name: MacOS
+          rating: 1
+    - title: Tools
+      entry:
+        - name: Git & GitHub
+          rating: 4
+        - name: Docker
+          rating: 1
+    - title: Languages
+      entry:
+        - name: Portuguese
+          value: Native
+        - name: English
+          value: C1
+
+sections:
+  education:
+    - name: "Bachelor's in Electrical and Computer Engineering"
+      location: "Técnico Lisboa, Portugal"
+      description: |-
+        - Relevant Coursework: Computer Networks & Internet, Introduction to Machine Learning , Network Architecture & Management
+        - Student-Athlete: Balancing full-time engineering academic load with high-level federated sports competition
+  jobs:
+    - name: |-
+        High Voltage Laboratory
+        Intern
+      location: "EDP Labelec"
+      date: "Jul 2026 - Set 2026"
+      description: |-
+        - Operated high-voltage dielectric testing equipment, focusing on Marx Impulse Generators for surge testing.
+        - Performed data acquisition and signal analysis of impulse waves to evaluate component insulation integrity.
+        - Set up and calibrated voltage measurement systems adhering to strict laboratory safety and quality protocols.
+        - Drafted technical reports and test documentation for engineering teams.
+    - name: |-
+        Private Tutor
+        STEM Field
+      location: "Freelance"
+      date: "2022 - Present"
+      description: |-
+        - Taught complex concepts in Mathematics, Physics, and Logic/Programming to high school and university students.
+        - Developed personalized study plans and problem-solving methodologies to increase student academic performance.
+        - Honed technical communication, adaptability, and leadership skills through 1-on-1 and group tutoring sessions.
+  projects:
+    - name: Personal Home Lab & Network Infrastructure
+      date: "2025 - Present"
+      link: https://github.com/znx0
+      description: >-
+        A self-hosted home server deployed on dedicated Raspberry Pi hardware, engineered for network security testing, service deployment and real-time physical insfrastructure monitoring.
+        The setup integrates a custom IoT telemetry module using a temperature sensor and LCD display connected to the server, featuring automated visual and audible alerts (LED & buzzed) when critical thermal thresholds are reached.
+    - name: Network-Wide Ad Blocker & DNS Sinkhole
+      date: "2026 - Present"
+      link: https://github.com/znx0
+      description: >-
+        A network-wide ad blocking and privacy solution deployed on a Raspberry Pi using Pi-hole.
+        The system acts as a local DNS sinkhole to block advertisements, tracking domains, and malicious telemetry across all devices on the network.
+        Configured custom blocklists, local DNS records, and analyzed DNS query logs to monitor and secure outgoing network traffic.
+    - name: Autonomous Line Follower Robot Competition
+      date: "2021 - 2021"
+      link: http://github.com/znx0
+      description: >-
+        An autonomous microcontroller-based mobile robot developed to track complex paths using ultrasonic and infrared sensor arrays.
+        Programmed in C on an ESP32 platform, incorporating closed-loop PID control algorithms for smooth motor control and precision and precise navigation.
+        Designed the hardware layout, motor driver circuitry, and optimized sensor polling for real-time responsiveness.
+    - name: Competitive CTF Player & Security Labs
+      date: "2024 - Present"
+      link: https://themctf.com/
+      description: >-
+        Active competitive team member participating in global jeopardy-style Capture The Flag (CTF) events, solving high-difficulty [FALTA COMPLETAR].
+        Collaborates with team members to develop exploits and writeups for international competitions on platforms like CTFtime.
+        Complemented by active hands-on practice on TryHackMe for continuous skill refinement.
+  extracurriculars:
+    - name: Member of Security Team @ Técnico (STT)
+      link: https://sectt.github.io/
+      icon: "fa-solid fa-user-secret"
+    - name: Member of THEM?!
+      link: https://themctf.com/
+      icon: "fa-solid fa-user-secret"
+    - name: Portuguese Olympiad in Physics 2021
+      icon: "fa-solid fa-atom"
+    - name: Federated Athlete at Muay Thai & Kickboxing Portuguese Federation
+      icon: "fa-solid fa-person-running"

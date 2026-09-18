@@ -1,0 +1,124 @@
+name: David Alexandre Cardoso Alves
+tagline: Estudante de Cibersegurança & Engenharia Eletrotécnica | Entusiasta de Ethical Hacking | Atleta Federado.
+
+sidebar:
+  contact:
+    email: znx0@proton.me
+    # phone: "+351 912 345 678"
+    location: "Lisboa, Portugal"
+    website: znx0
+    github: znx0
+    linkedin: davidacalves
+    tryhackme: 0xznx
+  skills:
+    - title: Cibersegurança & Redes
+      entry:
+        - name: Protocolos de Rede
+          rating: 5
+        - name: Criptografia
+          rating: 4
+        - name: Wireshark (Análise de Pacotes)
+          rating: 4
+        - name: Burp Suite
+          rating: 3
+    - title: Programação
+      entry:
+        - name: C
+          rating: 4
+        - name: Python
+          rating: 3
+        - name: HTML/CSS
+          rating: 2
+        - name: SQL
+          rating: 2
+        - name: MATLAB
+          rating: 2
+        - name: PHP
+          rating: 1
+    - title: Sistemas Operativos
+      entry:
+        - name: Linux
+          rating: 5
+        - name: Windows
+          rating: 3
+        - name: MacOS
+          rating: 1
+    - title: Ferramentas
+      entry:
+        - name: Git & GitHub
+          rating: 4
+        - name: Docker
+          rating: 1
+    - title: Línguas
+      entry:
+        - name: Português
+          value: Nativo
+        - name: Inglês
+          value: C1
+
+sections:
+  education:
+    - name: "Licenciatura em Engenharia Eletrotécnica e de Computadores"
+      location: "Técnico Lisboa, Portugal"
+      description: |-
+        - Cadeiras relevantes: Redes de Computadores e Internet, Introdução à Aprendizagem Automática, Arquitetura e Gestão de Redes
+        - Estudante-Atleta: Conciliação de um curso de engenharia a tempo inteiro com competição desportiva federada de alto nível
+  jobs:
+    - name: |-
+        Laboratório de Alta Tensão
+        Estagiário
+      location: "EDP Labelec"
+      date: "Jul 2026 - Set 2026"
+      description: |-
+        - Operou equipamento de ensaios dielétricos de alta tensão, com foco em Geradores de Impulso Marx para testes de sobretensão.
+        - Realizou aquisição de dados e análise de sinal de ondas de impulso para avaliar a integridade do isolamento dos componentes.
+        - Configurou e calibrou sistemas de medição de tensão, cumprindo protocolos rigorosos de segurança e qualidade laboratorial.
+        - Elaborou relatórios técnicos e documentação de ensaios para as equipas de engenharia.
+    - name: |-
+        Explicador Particular
+        Área STEM
+      location: "Freelance"
+      date: "2022 - Presente"
+      description: |-
+        - Lecionou conceitos complexos de Matemática, Física e Lógica/Programação a estudantes do secundário e universitários.
+        - Desenvolveu planos de estudo personalizados e metodologias de resolução de problemas para melhorar o desempenho académico dos alunos.
+        - Desenvolveu competências de comunicação técnica, adaptabilidade e liderança através de sessões individuais e em grupo.
+  projects:
+    - name: Home Lab Pessoal & Infraestrutura de Rede
+      date: "2025 - Presente"
+      link: https://github.com/znx0
+      description: >-
+        Um servidor doméstico self-hosted implementado em hardware dedicado Raspberry Pi, concebido para testes de segurança de rede, implementação de serviços, e monitorização em tempo real de infraestrutura física.
+        A configuração integra um módulo de telemetria IoT personalizado, com um sensor de temperatura e ecrã LCD ligados ao servidor, com alertas visuais e sonoros automatizados (LEDs e buzzer) quando são atingidos limiares térmicos críticos.
+    - name: Bloqueador de Anúncios e DNS Sinkhole para Toda a Rede
+      date: "2026 - Presente"
+      link: https://github.com/znx0
+      description: >-
+        Uma solução de bloqueio de anúncios e privacidade para toda a rede, implementada num Raspberry Pi com Pi-hole.
+        O sistema funciona como um DNS sinkhole local para bloquear anúncios, domínios de rastreio e telemetria maliciosa em todos os dispositivos da rede.
+        Configurou listas de bloqueio personalizadas, registos DNS locais, e analisou logs de consultas DNS para monitorizar e proteger o tráfego de rede de saída.
+    - name: Competição de Robô Seguidor de Linha Autónomo
+      date: "2021 - 2021"
+      link: http://github.com/znx0
+      description: >-
+        Um robô móvel autónomo baseado em microcontrolador, desenvolvido para seguir trajetos complexos utilizando arrays de sensores de ultrassons e infravermelhos.
+        Programado em C numa plataforma ESP32, incorporando algoritmos de controlo PID em malha fechada para um controlo suave dos motores e navegação precisa.
+        Concebeu o layout do hardware, os circuitos de controlo dos motores, e otimizou a leitura dos sensores para resposta em tempo real.
+    - name: Jogador Competitivo de CTF & Laboratórios de Segurança
+      date: "2024 - Presente"
+      link: https://themctf.com/
+      description: >-
+        Membro ativo de uma equipa competitiva, participando em eventos globais de Capture The Flag (CTF) no formato jeopardy, resolvendo desafios de elevada dificuldade em web exploitation, criptografia e engenharia inversa.
+        Colabora com os restantes membros da equipa no desenvolvimento de exploits e writeups para competições internacionais em plataformas como CTFtime.
+        Complementado com prática ativa no TryHackMe para aperfeiçoamento contínuo de competências.
+  extracurriculars:
+    - name: Membro da Security Team @ Técnico (STT)
+      link: https://sectt.github.io/
+      icon: "fa-solid fa-user-secret"
+    - name: Membro do THEM?!
+      link: https://themctf.com/
+      icon: "fa-solid fa-user-secret"
+    - name: Olimpíada Portuguesa de Física 2021
+      icon: "fa-solid fa-atom"
+    - name: Atleta Federado de Muay Thai & Kickboxing pela Federação Portuguesa
+      icon: "fa-solid fa-person-fighting"
