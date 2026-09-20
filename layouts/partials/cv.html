@@ -1,3 +1,28 @@
+<style>
+@media print {
+  /* Evita quebras de página que empurram o conteúdo para a página 2 */
+  .cv-body, .cv-sections, .cv-sections > div, section {
+    page-break-before: avoid !important;
+    break-before: avoid !important;
+    page-break-inside: auto !important;
+    break-inside: auto !important;
+  }
+
+  /* Mantém a barra lateral e as secções lado a lado no layout impresso */
+  .cv-body {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: flex-start !important;
+  }
+
+  /* Força a coluna principal de secções a colar ao topo */
+  .cv-sections {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+}
+</style>
+
 <div class="cv">
   {{ partial "header.html" . }}
   <div class="cv-body">

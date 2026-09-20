@@ -6,18 +6,18 @@ sidebar:
     email: znx0@proton.me
     # phone: "+351 912 345 678"
     location: "Lisboa, Portugal"
-    website: znx0
+    website: 0xznx
     github: znx0
     linkedin: davidacalves
     tryhackme: 0xznx
   skills:
     - title: Cibersegurança & Redes
       entry:
-        - name: Protocolos de Rede
+        - name: Protocolos
           rating: 5
         - name: Criptografia
           rating: 4
-        - name: Wireshark (Análise de Pacotes)
+        - name: Wireshark
           rating: 4
         - name: Burp Suite
           rating: 3
@@ -55,7 +55,14 @@ sidebar:
           value: Nativo
         - name: Inglês
           value: C1
-
+  certifications:
+    title: Certifications
+    entry:
+      - name: "Diploma in CyberSecurity"
+        issuer: "Alison"
+        date: "17 de Setembro 2026"
+        grade: "Nota Final: 90%"
+        link: "https://alison.com/verify/1cd7709cde"
 sections:
   education:
     - name: "Licenciatura em Engenharia Eletrotécnica e de Computadores"
