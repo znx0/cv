@@ -1,4 +1,4 @@
- <script>
+<script>
   function toggleDarkMode() {
     const classes = document.querySelector("html").classList;
     if (classes.contains("dark")) {
@@ -8,15 +8,16 @@
     }
   }
 
-  if (window.matchMedia("(prefers-color-scheme: dark)")) {
+  if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
     toggleDarkMode();
   }
-
 </script>
+
 <div class="toolbar">
   <a href="https://0xznx.com" title="Back to site">
     <i class="fa-solid fa-arrow-left"></i>
   </a>
+
   <button class="theme-toggle" onclick="toggleDarkMode()">
     <span class="hide-dark">
       <i class="fa-solid fa-sun"></i>
@@ -26,6 +27,7 @@
     </span>
     Toggle theme
   </button>
+
   {{ range $.Site.Home.AllTranslations }}
     {{ if ne $.Site.Language.Lang .Language.Lang }}
       <a href="{{ .Permalink }}">
@@ -35,15 +37,15 @@
       </a>
     {{ end }}
   {{ end }}
+
   <div style="flex-grow: 1;"></div>
-  <a>
-    href="https://github.com/znx0/cv"
-    target="_blank"
-    rel="noopener noreferrer"
-    <i> class="fa-brands fa-github"></i>
+
+  <a href="https://github.com/znx0/cv" target="_blank" rel="noopener noreferrer">
+    <i class="fa-brands fa-github"></i>
     Source code
   </a>
+
   <button class="print-button" onclick="window.print()">
     <i class="fa-solid fa-print"></i>
   </button>
-</div> 
+</div>
