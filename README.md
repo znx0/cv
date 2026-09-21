@@ -1,6 +1,6 @@
 # Curriculum Vitae - David Alves
 
-Why HTML? Because it can be easily shared [znx0.github.io/cv/](https://znx0.github.io/cv/)
+Why HTML? Because it can be easily shared [My CV](https://znx0.github.io/cv/)
 
 ![CV Preview](.github/cv.png)
 
