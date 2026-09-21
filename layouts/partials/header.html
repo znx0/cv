@@ -1,6 +1,13 @@
-<header>
-  <h1>{{ .name }}</h1>
-  {{ with .tagline }}
-    <p>{{ . }}</p>
-  {{ end }}
+<header style="display: flex; align-items: center; justify-content: space-between;">
+  <!-- Seta de retorno para a home do site principal -->
+  <a href="https://0xznx.com/" style="text-decoration: none; font-size: 1.2rem; color: inherit;" title="Return to Home">
+    &#8592;
+  </a>
+
+  <div>
+    <h1>{{ .name }}</h1>
+    {{ with .tagline }}
+      <p>{{ . }}</p>
+    {{ end }}
+  </div>
 </header>
