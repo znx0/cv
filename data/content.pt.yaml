@@ -4,12 +4,11 @@ tagline: Estudante de Cibersegurança & Engenharia Eletrotécnica | Entusiasta d
 sidebar:
   contact:
     email: znx0@proton.me
-    # phone: "+351 912 345 678"
+    # phone: "+351 966 599 108"
     location: "Lisboa, Portugal"
-    website: 0xznx
+    website: 0xznx.com
     github: znx0
     linkedin: davidacalves
-    tryhackme: 0xznx
   skills:
     - title: Cibersegurança & Redes
       entry:
@@ -41,7 +40,7 @@ sidebar:
           rating: 5
         - name: Windows
           rating: 3
-        - name: MacOS
+        - name: macOS
           rating: 1
     - title: Ferramentas
       entry:
@@ -56,7 +55,7 @@ sidebar:
         - name: Inglês
           value: C1
   certifications:
-    title: Certifications
+    title: Certificações
     entry:
       - name: "Diploma in CyberSecurity"
         issuer: "Alison"
@@ -67,6 +66,7 @@ sections:
   education:
     - name: "Licenciatura em Engenharia Eletrotécnica e de Computadores"
       location: "Técnico Lisboa, Portugal"
+      date: "Set 2022 - Presente"
       description: |-
         - Cadeiras relevantes: Redes de Computadores e Internet, Introdução à Aprendizagem Automática, Arquitetura e Gestão de Redes
         - Estudante-Atleta: Conciliação de um curso de engenharia a tempo inteiro com competição desportiva federada de alto nível
@@ -83,7 +83,7 @@ sections:
         - Elaborou relatórios técnicos e documentação de ensaios para as equipas de engenharia.
     - name: |-
         Explicador Particular
-        Área STEM
+        Área Ciências Exatas
       location: "Freelance"
       date: "2022 - Presente"
       description: |-
@@ -92,20 +92,25 @@ sections:
         - Desenvolveu competências de comunicação técnica, adaptabilidade e liderança através de sessões individuais e em grupo.
   projects:
     - name: Home Lab Pessoal & Infraestrutura de Rede
-      date: "2025 - Presente"
+      date: "Em Desenvolvimento"
       link: https://github.com/znx0
       description: >-
-        Um servidor doméstico self-hosted implementado em hardware dedicado Raspberry Pi, concebido para testes de segurança de rede, implementação de serviços, e monitorização em tempo real de infraestrutura física.
-        A configuração integra um módulo de telemetria IoT personalizado, com um sensor de temperatura e ecrã LCD ligados ao servidor, com alertas visuais e sonoros automatizados (LEDs e buzzer) quando são atingidos limiares térmicos críticos.
-    - name: Bloqueador de Anúncios e DNS Sinkhole para Toda a Rede
-      date: "2026 - Presente"
+      Um servidor doméstico self-hosted implementado em hardware dedicado Raspberry Pi, concebido para testes de segurança de rede, implementação de serviços, e monitorização em tempo real de infraestrutura física.
+      - name: Sistema Embebido de Monitorização Ambiental
+        date: "2026"
+        link: https://github.com/znx0/LCD-DHT11
+        description: >-
+          Solução de monitorização ambiental baseada em Arduino, projetada para acompanhar métricas de clima interior em tempo real.
+          Através da interligação de um sensor DHT11 com um ecrã LCD 16x2, o sistema processa a telemetria de temperatura e humidade em direto diretamente no microcontrolador, fornecendo uma leitura visual clara e instantânea.
+      - name: Bloqueador de Anúncios e DNS Sinkhole para Toda a Rede
+      date: "Ativo"
       link: https://github.com/znx0
       description: >-
         Uma solução de bloqueio de anúncios e privacidade para toda a rede, implementada num Raspberry Pi com Pi-hole.
         O sistema funciona como um DNS sinkhole local para bloquear anúncios, domínios de rastreio e telemetria maliciosa em todos os dispositivos da rede.
         Configurou listas de bloqueio personalizadas, registos DNS locais, e analisou logs de consultas DNS para monitorizar e proteger o tráfego de rede de saída.
     - name: Competição de Robô Seguidor de Linha Autónomo
-      date: "2021 - 2021"
+      date: "2021"
       link: http://github.com/znx0
       description: >-
         Um robô móvel autónomo baseado em microcontrolador, desenvolvido para seguir trajetos complexos utilizando arrays de sensores de ultrassons e infravermelhos.
