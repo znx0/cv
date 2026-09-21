@@ -96,13 +96,13 @@ sections:
       link: https://github.com/znx0
       description: >-
       Um servidor doméstico self-hosted implementado em hardware dedicado Raspberry Pi, concebido para testes de segurança de rede, implementação de serviços, e monitorização em tempo real de infraestrutura física.
-      - name: Sistema Embebido de Monitorização Ambiental
-        date: "2026"
-        link: https://github.com/znx0/LCD-DHT11
-        description: >-
-          Solução de monitorização ambiental baseada em Arduino, projetada para acompanhar métricas de clima interior em tempo real.
-          Através da interligação de um sensor DHT11 com um ecrã LCD 16x2, o sistema processa a telemetria de temperatura e humidade em direto diretamente no microcontrolador, fornecendo uma leitura visual clara e instantânea.
-      - name: Bloqueador de Anúncios e DNS Sinkhole para Toda a Rede
+    - name: Sistema Embebido de Monitorização Ambiental
+      date: "2026"
+      link: https://github.com/znx0/LCD-DHT11
+      description: >-
+        Solução de monitorização ambiental baseada em Arduino, projetada para acompanhar métricas de clima interior em tempo real.
+        Através da interligação de um sensor DHT11 com um ecrã LCD 16x2, o sistema processa a telemetria de temperatura e humidade em direto diretamente no microcontrolador, fornecendo uma leitura visual clara e instantânea.
+    - name: Bloqueador de Anúncios e DNS Sinkhole para Toda a Rede
       date: "Ativo"
       link: https://github.com/znx0
       description: >-

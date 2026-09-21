@@ -67,7 +67,7 @@ sections:
     - name: "Bachelor's in Electrical and Computer Engineering"
       location: "Técnico Lisboa, Portugal"
       date: Set 2022 - Present
-description: |-
+      description: |-
         - Relevant Coursework: Computer Networks & Internet, Introduction to Machine Learning , Network Architecture & Management
         - Student-Athlete: Balancing full-time engineering academic load with high-level federated sports competition
   jobs:
