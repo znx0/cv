@@ -1,4 +1,4 @@
-<script>
+ <script>
   function toggleDarkMode() {
     const classes = document.querySelector("html").classList;
     if (classes.contains("dark")) {
@@ -11,11 +11,12 @@
   if (window.matchMedia("(prefers-color-scheme: dark)")) {
     toggleDarkMode();
   }
+
 </script>
 <div class="toolbar">
-  <a href="https://0xznx.com" title="Back to site" style="font-size: 1.2rem; text-decoration: none; color: inherit; padding-right: 0.5rem;">
-  &#8592;
-</a>
+  <a href="https://0xznx.com" title="Back to site">
+    <i class="fa-solid fa-arrow-left"></i>
+  </a>
   <button class="theme-toggle" onclick="toggleDarkMode()">
     <span class="hide-dark">
       <i class="fa-solid fa-sun"></i>
@@ -35,16 +36,15 @@
     {{ end }}
   {{ end }}
   <div style="flex-grow: 1;"></div>
-  
-  <a
+  <a>
     href="https://github.com/znx0/cv"
     target="_blank"
     rel="noopener noreferrer"
-  >
+  </a>
     <i class="fa-brands fa-github"></i>
     Source code
   </a>
   <button class="print-button" onclick="window.print()">
     <i class="fa-solid fa-print"></i>
   </button>
-</div>
+</div> 
