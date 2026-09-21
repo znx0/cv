@@ -95,7 +95,7 @@ sections:
       date: "Em Desenvolvimento"
       link: https://github.com/znx0
       description: >-
-      Um servidor doméstico self-hosted implementado em hardware dedicado Raspberry Pi, concebido para testes de segurança de rede, implementação de serviços, e monitorização em tempo real de infraestrutura física.
+        Um servidor doméstico self-hosted implementado em hardware dedicado Raspberry Pi, concebido para testes de segurança de rede, implementação de serviços, e monitorização em tempo real de infraestrutura física.
     - name: Sistema Embebido de Monitorização Ambiental
       date: "2026"
       link: https://github.com/znx0/LCD-DHT11
