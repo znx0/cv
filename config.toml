@@ -1,4 +1,4 @@
-baseURL = 'https://0xznx.com/cv/'
+baseURL = 'https://znx0.github.io/cv/'
 languageCode = 'en-us'
 title = 'CV | David Alves'
 disableKinds = ["taxonomy", "term"]
