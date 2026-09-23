@@ -83,7 +83,6 @@ sections:
         - Elaborou relatórios técnicos e documentação de ensaios para as equipas de engenharia.
     - name: |-
         Explicador Particular
-        Área Ciências Exatas
       location: "Freelance"
       date: "2022 - Presente"
       description: |-
@@ -95,27 +94,13 @@ sections:
       date: "Em Desenvolvimento"
       link: https://github.com/znx0
       description: >-
-        Um servidor doméstico self-hosted implementado em hardware dedicado Raspberry Pi, concebido para testes de segurança de rede, implementação de serviços, e monitorização em tempo real de infraestrutura física.
+        Um servidor doméstico self-hosted, a correr num portátil reaproveitado, funcionando como laboratório de segurança e infraestrutura de rede. Virtualizado com Proxmox e orquestrado via Docker/Portainer, aloja o Pi-hole como DNS sinkhole para toda a rede, o Tailscale para acesso remoto seguro sem portas expostas, e uma stack Grafana/Prometheus para monitorização da infraestrutura.
     - name: Sistema Embebido de Monitorização Ambiental
       date: "2026"
       link: https://github.com/znx0/LCD-DHT11
       description: >-
         Solução de monitorização ambiental baseada em Arduino, projetada para acompanhar métricas de clima interior em tempo real.
         Através da interligação de um sensor DHT11 com um ecrã LCD 16x2, o sistema processa a telemetria de temperatura e humidade em direto diretamente no microcontrolador, fornecendo uma leitura visual clara e instantânea.
-    - name: Bloqueador de Anúncios e DNS Sinkhole para Toda a Rede
-      date: "Ativo"
-      link: https://github.com/znx0
-      description: >-
-        Uma solução de bloqueio de anúncios e privacidade para toda a rede, implementada num Raspberry Pi com Pi-hole.
-        O sistema funciona como um DNS sinkhole local para bloquear anúncios, domínios de rastreio e telemetria maliciosa em todos os dispositivos da rede.
-        Configurou listas de bloqueio personalizadas, registos DNS locais, e analisou logs de consultas DNS para monitorizar e proteger o tráfego de rede de saída.
-    - name: Competição de Robô Seguidor de Linha Autónomo
-      date: "2021"
-      link: http://github.com/znx0
-      description: >-
-        Um robô móvel autónomo baseado em microcontrolador, desenvolvido para seguir trajetos complexos utilizando arrays de sensores de ultrassons e infravermelhos.
-        Programado em C numa plataforma ESP32, incorporando algoritmos de controlo PID em malha fechada para um controlo suave dos motores e navegação precisa.
-        Concebeu o layout do hardware, os circuitos de controlo dos motores, e otimizou a leitura dos sensores para resposta em tempo real.
     - name: Jogador Competitivo de CTF & Laboratórios de Segurança
       date: "2024 - Presente"
       link: https://themctf.com/
@@ -133,4 +118,5 @@ sections:
     - name: Olimpíada Portuguesa de Física 2021
       icon: "fa-solid fa-atom"
     - name: Atleta Federado de Muay Thai & Kickboxing pela Federação Portuguesa
-      icon: "fa-solid fa-medal"
+      link: https://fpkmt.pt/
+icon: "fa-solid fa-medal"

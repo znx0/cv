@@ -95,32 +95,18 @@ sections:
       date: "Ongoing"
       link: https://github.com/znx0
       description: >-
-        A self-hosted home server deployed on dedicated Raspberry Pi hardware, engineered for network security testing, service deployment and real-time physical insfrastructure monitoring.
+        A self-hosted home server running on a repurposed laptop, serving as a network security and infrastructure lab. Virtualized with Proxmox and orchestrated via Docker/Portainer, it hosts Pi-hole as a network-wide DNS sinkhole, Tailscale for secure remote access without exposed ports, and a Grafana/Prometheus stack for infrastructure monitoring.
     - name: Embedded Environmental Monitor
       date: "2026"
       link: https://github.com/znx0/LCD-DHT11
       description: >-
         Arduino-based environmental monitoring solution designed to track indoor climate metrics in real time.
         By interfacing a DHT11 sensor with a 16x2 LCD display, the system processes live temperature and humidity telemetry directly on the microcontroller, providing clear and instantaneous visual output.
-    - name: Network-Wide Ad Blocker & DNS Sinkhole
-      date: "Active"
-      link: https://github.com/znx0
-      description: >-
-        A network-wide ad blocking and privacy solution deployed on a Raspberry Pi using Pi-hole.
-        The system acts as a local DNS sinkhole to block advertisements, tracking domains, and malicious telemetry across all devices on the network.
-        Configured custom blocklists, local DNS records, and analyzed DNS query logs to monitor and secure outgoing network traffic.
-    - name: Autonomous Line Follower Robot Competition
-      date: "2021"
-      link: http://github.com/znx0
-      description: >-
-        An autonomous microcontroller-based mobile robot developed to track complex paths using ultrasonic and infrared sensor arrays.
-        Programmed in C on an ESP32 platform, incorporating closed-loop PID control algorithms for smooth motor control and precision and precise navigation.
-        Designed the hardware layout, motor driver circuitry, and optimized sensor polling for real-time responsiveness.
     - name: Competitive CTF Player & Security Labs
       date: "2024 - Present"
       link: https://themctf.com/
       description: >-
-        Active competitive team member participating in global jeopardy-style Capture The Flag (CTF) events, solving high-difficulty [FALTA COMPLETAR].
+        Active competitive team member participating in global jeopardy-style Capture The Flag (CTF) events, solving high-difficulty challenges.
         Collaborates with team members to develop exploits and writeups for international competitions on platforms like CTFtime.
         Complemented by active hands-on practice on TryHackMe for continuous skill refinement.
   extracurriculars:
@@ -133,4 +119,5 @@ sections:
     - name: Portuguese Olympiad in Physics 2021
       icon: "fa-solid fa-atom"
     - name: Federated Athlete at Muay Thai & Kickboxing Portuguese Federation
+      link: https://fpkmt.pt/
       icon: "fa-solid fa-medal"
