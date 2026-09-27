@@ -62,6 +62,11 @@ sidebar:
         date: "17 de Setembro 2026"
         grade: "Nota Final: 90%"
         link: "https://alison.com/verify/1cd7709cde"
+      - name: CompTIA Security+ 701
+        issuer: "Coursera"
+        date: "16 de Outubro 2026"
+        grade: "Nota Final: 91.34%"
+        link: "À espera do Certificado"
 sections:
   education:
     - name: "Licenciatura em Engenharia Eletrotécnica e de Computadores"

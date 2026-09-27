@@ -62,6 +62,11 @@ sidebar:
         date: "17th September 2026"
         grade: "Passing Grade: 90%"
         link: "https://alison.com/verify/1cd7709cde"
+      - name: CompTIA Security+ 701
+        issuer: "Coursera"
+        date: "16th October 2026"
+        grade: "Passing Grade: 91.34%"
+        link: "waiting for certificate"
 sections:
   education:
     - name: "Bachelor's in Electrical and Computer Engineering"
