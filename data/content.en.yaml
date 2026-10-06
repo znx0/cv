@@ -104,8 +104,13 @@ sections:
     - name: Personal Home Lab & Network Infrastructure
       date: "Ongoing"
       link: https://github.com/znx0
-      description: >-
-        A self-hosted home server running on a repurposed laptop, serving as a network security and infrastructure lab. Virtualized with Proxmox and orchestrated via Docker/Portainer, it hosts Pi-hole as a network-wide DNS sinkhole, Tailscale for secure remote access without exposed ports, and a Grafana/Prometheus stack for infrastructure monitoring.
+      description: |-
+        - Built a two-node self-hosted environment from repurposed laptops, running Debian Server and Docker Compose, managed headless via SSH, Cockpit and Portainer
+        - Deployed network-wide DNS filtering with AdGuard Home and a reverse proxy with Nginx Proxy Manager for internal services
+        - Configured secure remote access with Tailscale, avoiding any open ports on the router
+        - Set up service monitoring and centralized logging with Uptime Kuma, Dozzle and a Homepage dashboard
+        - [Under Development] VLAN segmentation and traffic analysis (port mirroring, Wireshark) on a managed TP-Link switch
+        - [Under Development] Documented the architecture and backups of all service configurations
     - name: Embedded Environmental Monitor
       date: "2026"
       link: https://github.com/znx0/LCD-DHT11
