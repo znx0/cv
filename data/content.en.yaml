@@ -102,7 +102,7 @@ sections:
         - Honed technical communication, adaptability, and leadership skills through 1-on-1 and group tutoring sessions.
   projects:
     - name: Personal Home Lab & Network Infrastructure
-      date: "Ongoing"
+      date: "Active Development"
       link: https://github.com/znx0
       description: |-
         - Built a two-node self-hosted environment from repurposed laptops, running Debian Server and Docker Compose, managed headless via SSH, Cockpit and Portainer
@@ -111,6 +111,14 @@ sections:
         - Set up service monitoring and centralized logging with Uptime Kuma, Dozzle and a Homepage dashboard
         - [Under Development] VLAN segmentation and traffic analysis (port mirroring, Wireshark) on a managed TP-Link switch
         - [Under Development] Documented the architecture and backups of all service configurations
+    - name: Port Scanner in Python
+      date: "Active Development"
+      link: https://github.com/znx0/Cybersecurity-Projects/tree/main/projects/networking/port-scanner
+      description: |-
+        - Built a TCP connect scanner in Python using only the standard library (socket, argparse), taking a target (IP or hostname) and port range from the command line
+        - Implemented DNS resolution, port-range validation, connection timeouts and exception handling for network failures and user interrupts  
+        - Identified services by port number and grabbed HTTP banners from open ports, reporting total scan time
+        - Tested results against a local server and compared them with Nmap output
     - name: Embedded Environmental Monitor
       date: "2026"
       link: https://github.com/znx0/LCD-DHT11

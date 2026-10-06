@@ -110,6 +110,14 @@ sections:
         - Implementei monitorização de serviços e centralização de logs com o Uptime Kuma, o Dozzle e um painel Homepage
         - [Em desenvolvimento] Segmentação por VLANs e análise de tráfego (port mirroring, Wireshark) num switch gerido TP-Link
         - [Em desenvolvimento] Documentação da arquitetura e das cópias de segurança das configurações de todos os serviços
+    - name: Port Scanner em Python
+      date: "Em Desenvolvimento"
+      link: https://github.com/znx0/Cybersecurity-Projects/tree/main/projects/networking/port-scanner
+      description: |-
+        - Desenvolvi um scanner de portas TCP (connect scan) em Python, apenas com a biblioteca standard (socket, argparse), que recebe alvo (IP ou hostname) e intervalo de portas por linha de comandos
+        - Implementei resolução de DNS, validação do intervalo de portas, timeouts e tratamento de exceções para falhas de rede e interrupção pelo utilizador
+        - Identifiquei serviços pelo número da porta e recolhi banners HTTP das portas abertas, medindo o tempo total de execução
+        - Validei os resultados contra um servidor local e comparei-os com o Nmap
     - name: Sistema Embebido de Monitorização Ambiental
       date: "2026"
       link: https://github.com/znx0/LCD-DHT11
