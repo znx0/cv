@@ -115,10 +115,7 @@ sections:
       date: "Active Development"
       link: https://github.com/znx0/Cybersecurity-Projects/tree/main/projects/networking/port-scanner
       description: |-
-        - Built a TCP connect scanner in Python using only the standard library (socket, argparse), taking a target (IP or hostname) and port range from the command line
-        - Implemented DNS resolution, port-range validation, connection timeouts and exception handling for network failures and user interrupts  
-        - Identified services by port number and grabbed HTTP banners from open ports, reporting total scan time
-        - Tested results against a local server and compared them with Nmap output
+        Port Scanner TCP (Python, socket, argparse): scanner de portas em modo connect scan, com resolução de DNS, validação de portas, timeouts, tratamento de erros, identificação de serviços e banner grabbing HTTP (extensível a outros protocolos).
     - name: Embedded Environmental Monitor
       date: "2026"
       link: https://github.com/znx0/LCD-DHT11
