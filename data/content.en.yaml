@@ -62,11 +62,16 @@ sidebar:
         date: "17th September 2026"
         grade: "Passing Grade: 90%"
         link: "https://alison.com/verify/1cd7709cde"
+      - name: Kali Linux Revealed (PEN-103) — OffSec
+        issuer: "Offensive Security"
+        date: "16th October 2026"
+        grade: "There is no formal grading system for this course, but the completion of the course and the associated labs demonstrates proficiency in Kali Linux and penetration testing concepts."
+        link: "https://www.offsec.com/courses/pen-103/"
       - name: CompTIA Security+ 701 Training
         issuer: "Coursera"
         date: "16th October 2026"
         grade: "Passing Grade: 91.34%"
-        link:
+        link: "https://www.coursera.org/learn/comptia-security-plus-701"
 sections:
   education:
     - name: "Bachelor's in Electrical and Computer Engineering"
