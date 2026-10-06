@@ -62,11 +62,16 @@ sidebar:
         date: "17 de Setembro 2026"
         grade: "Nota Final: 90%"
         link: "https://alison.com/verify/1cd7709cde"
-      - name: CompTIA Security+ 701
+      - name: Kali Linux (PEN-103) Training— OffSec
+        issuer: "Offensive Security"
+        date: "Outubro 2026"
+        grade: "Não existe um sistema formal de avaliação para este curso."
+        link: "https://www.offsec.com/courses/pen-103/"
+      - name: CompTIA Security 701 Training
         issuer: "Coursera"
-        date: "16 de Outubro 2026"
+        date: "Outubro 2026"
         grade: "Nota Final: 91.34%"
-        link: "À espera do Certificado"
+        link: "https://www.coursera.org/learn/comptia-security-701"
 sections:
   education:
     - name: "Licenciatura em Engenharia Eletrotécnica e de Computadores"
